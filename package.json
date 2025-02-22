@@ -1,0 +1,15 @@
+{
+  "name": "nginx-proxy",
+  "version": "1.0.0",
+  "description": "A Node.js application serving a static HTML file, used for load balancing with NGINX.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Hatice Celik",
+  "license": "MIT",
+  "dependencies": {
+      "express": "^4.17.1",
+      "path": "^0.12.7"
+    }
+}
